@@ -1,0 +1,10 @@
+/* body{background:#cde;} */
+.items{
+	-webkit-transition:0.5s;
+	transition:0.5s;
+}
+.items.ng-enter{  opacity:0; width:150px;}
+.items.ng-enter.ng-enter-active{  } 
+
+.items.ng-leave{  }
+.items.ng-leave.ng-leave-active{ opacity:0; width:150px;} 

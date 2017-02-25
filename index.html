@@ -1,0 +1,50 @@
+﻿<!doctype html>
+<html lang="en" ng-app="regApp" >
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style/animateStyle.css">
+	<link rel="stylesheet" href="style/style.css">
+	<script src="js/nativScipt.js"></script>
+</head>
+<body>
+   
+<div ng-controller="main" id="main" > 
+	<div id="container"> 
+		<div id="header" >
+			<nav>
+			<ul id="headerMenu"  >
+				<li><a href="#!/main">Home</a></li>
+				<li><a>Sails</a></li>
+			</ul>
+			</nav>	
+		</div> 
+		<div ng-view ></div>
+		 
+		<div id="footer" >  
+			<div id="footerInfo">
+				<ul>
+					<li>Information about company</li>
+					<li>Name company</li>
+					<li>Some information about company</li>
+					<li>Information about company</li>
+				</ul>
+			</div>
+		</div>
+			 
+ 	</div>	
+</div>
+  
+ 
+</body>
+ 
+<script src="angular/angular.min.js"></script>
+<script src="angular/angular-route.min.js"></script>
+<script src="angular/angular-animate.min.js"></script>
+<script src="angular/angular-sanitize.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/route.js"></script>
+<script src="js/services/cervicesItems.js"></script>
+<script src="js/services/cervicesOnePage.js"></script>
+
+</html>
